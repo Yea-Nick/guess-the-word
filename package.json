@@ -1,0 +1,19 @@
+{
+  "name": "guess-the-word",
+  "version": "1.0.0",
+  "description": "a small mini-game",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx esbuild src/main.js --bundle --outfile=public/js/bundle.js --minify && node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "esbuild": "^0.25.12",
+    "express": "^5.1.0",
+    "moment": "^2.30.1"
+  }
+}
